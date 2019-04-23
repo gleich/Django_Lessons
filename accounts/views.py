@@ -2,4 +2,4 @@ from django.shortcuts import render, HttpResponse
 
 # Create your views here.
 def home(requests):
-    return HttpResponse("Home Page!")
+    return render(request, "accounts/login.html")
